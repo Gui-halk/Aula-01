@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Formulário
+            <br>
+        </h1>
+    </div>
+    <form action="/dadosdoform.html" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="telefone">Seu telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+        <div>
+            <label for="assunto">Selecione um anime</label>
+            <select name="assunto" id="assunto">
+            <option value="valor1">One Piece</option>
+            <option value="valor2">Naruto</option>
+            <option value="valor3">Pokemon</option>
+        </select>
+        </div>
+        <div>
+
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+        <div>
+            <label for="termos">Termos de confidencialidade</label>
+            <input type="checkbox" id="termos" name="termos">
+        </div>
+        <div>
+            <textarea placeholder="Digite a Descrição de contato aqui" name="descrição" id="descrição" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button>Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
